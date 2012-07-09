@@ -1,0 +1,29 @@
+{
+    "name": "connect-test",
+    "description": "Connect middleware testing",
+    "version": "1.0.0",
+    "author": "Dmitry Bashkatov <dbashkatov@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nailgun/connect-test.git"
+    },
+    "dependencies": {
+        "should": "0.6.x"
+    },
+    "devDependencies": {
+        "mocha": "1.3.x"
+    },
+    "contributors": [
+        {
+            "name": "TJ Holowaychuk",
+            "email": "tj@vision-media.ca",
+            "url": "http://tjholowaychuk.com"
+        }
+    ],
+    "scripts": {
+        "test": "make test"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
